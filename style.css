@@ -1,0 +1,46 @@
+
+:root{
+    --primary-color: #ff7979;
+    --secondry-color: #4cd137;
+}
+
+@font-face {
+    font-family: 'p-l' ;
+    src: url(./assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'p-m';
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'p-r' ;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'p-b' ;
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+
+
+
+/* section header */
+.navbar-brand i{
+    color: var(--primary-color);
+}
+.nav-item .btn{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    color: #fff;
+}
+.st-btn{
+    text-decoration:none;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.ind-btn{
+    text-decoration:none;
+    padding: 10px 20px;
+    background-color: var(--secondry-color);
+    color: #fff;
+}
